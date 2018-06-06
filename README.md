@@ -3,7 +3,7 @@
 En este tutorial aprenderemos:
 
 1. Como crear un estilo propio basandose en el estilo creado por el ICGC
-2. Crear un visor de mapas con la base background VT ICGC y el estilo propio creado
+2. Crear un visor de mapas con la base BackgroundMaps y el estilo propio creado
 3. Cargar otra fuente de datos a nuestro mapa y agregar la capa de Terreno
 
 ## Crear el estilo
@@ -62,7 +62,7 @@ https://geoserveis.icgc.cat/stylesvector/icgc.json
 
 ## Crear visor de mapas
 
-Para crear el visor de mapa adaptaremos el visor de ejemplo creado por el ICGC para visualizar diferentes estilos sobre la base background VT ICGC.
+Para crear el visor de mapa adaptaremos el visor de ejemplo creado por el ICGC para visualizar diferentes estilos sobre la base BackgroundMaps.
 
 * Ir al el visor base https://openicgc.github.io/icgc-basemap.html
 

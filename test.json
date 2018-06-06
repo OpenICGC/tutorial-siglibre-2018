@@ -13,6 +13,14 @@
     "openmaptiles": {
       "type": "vector",
       "url": "https://geoserveis.icgc.cat/stylesvector/basemap.json"
+    },
+    "terrain": {
+      "type": "raster-dem",
+      "tiles": [
+          "https://tilemaps.icgc.cat/tileserver/tileserver.php/mapboxTerrain/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256,
+      "maxzoom": 16
     }
   },
   "sprite": "https://geoserveis.icgc.cat/stylesvector/sprites/sprite@1",
@@ -25,6 +33,23 @@
         "background-color": "#f8f4f0"
       }
     },
+    {
+      "id": "terrain",
+      "type": "hillshade",
+      "source": "terrain",
+      "layout": {
+          "visibility": "visible"
+      },
+      "paint": {
+          "hillshade-illumination-anchor": "map",
+          "hillshade-exaggeration":1,
+          "hillshade-highlight-color": "hsla(141, 35%, 47%, 0.75)",
+          "hillshade-shadow-color": "hsla(130, 43%, 11%, 0.9)",
+          "hillshade-accent-color": "#dcf193",
+          "hillshade-illumination-direction": 0
+      },
+      "interactive": true
+  },
     {
       "id": "landcover-glacier",
       "type": "fill",

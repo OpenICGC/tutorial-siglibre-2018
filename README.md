@@ -20,5 +20,7 @@ hacer fork del repo
 
 subir al este repo con un pull request
 
-adaptar el visor 
+adaptar el visor https://openicgc.github.io/icgc-basemap.html
+
+cargar la capa de terrain
 

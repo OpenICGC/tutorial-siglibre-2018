@@ -76,15 +76,15 @@ Para crear el visor de mapa adaptaremos el visor de ejemplo creado por el ICGC p
 
 * Modificar la url del estilo y pegar la url de vuestro estilo complejo (línea 123)
 
-* Recargar la página y ver que se ahora el mapa tiene el estilo complejo
+* Recargar la página y comprobar que ahora el mapa tiene el estilo complejo
 
-## Cargar la capa de Terrain
+## Cargar la capa de Terreno
 
 En nuestor estilo complejo añadiremos la capa de terreno (sólo está disponible en Catalunya)
 
 * Ir al repo de OpenICGC https://openicgc.github.io/ y copiar la URL del estilo **Terreny** de ámbito Catalunya
 
-* Abrir la URL del estilo Terreny en una nueva pestaña del navegador
+* Abrir la URL del estilo **Terreny** en una nueva pestaña del navegador
 
 * Copiar el source con id **terrain**
 
